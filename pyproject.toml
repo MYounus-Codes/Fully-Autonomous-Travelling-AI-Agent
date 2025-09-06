@@ -1,0 +1,16 @@
+[project]
+name = "Trip-Planner"
+version = "0.1.0"
+description = "This program can be very help full for those who are confused to choose the best place for trip with budget friendly. Agents Can help you here. They will suggest you the best location to go."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.0.16",
+    "pillow>=11.2.1",
+    "pydantic>=2.11.5",
+    "pydantic-settings>=2.9.1",
+    "selenium>=4.33.0",
+    "serpapi>=0.1.5",
+    "streamlit>=1.45.1",
+    "webdriver-manager>=4.0.2",
+]
